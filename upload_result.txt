@@ -1,0 +1,115 @@
+caterpie:cmc_contract origami$ truffle migrate --network ropsten
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'ropsten-fork'
+> Network id:      3
+> Block gas limit: 0x7a1200
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        6759194
+   > block timestamp:     1573543814
+   > account:             0xfB0FD0CC0Db58095a331c23C14305689d6A22119
+   > balance:             3.953147735
+   > gas used:            246393
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000492786 ETH
+
+   -------------------------------------
+   > Total cost:         0.000492786 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'CMC'
+   ---------------
+   > block number:        6759196
+   > block timestamp:     1573543821
+   > account:             0xfB0FD0CC0Db58095a331c23C14305689d6A22119
+   > balance:             3.943351867
+   > gas used:            4870911
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.009741822 ETH
+
+   -------------------------------------
+   > Total cost:         0.009741822 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.010234608 ETH
+
+
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 0x7a1200
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x930c486efe9f3e444404b5064913cd1bad9fecb39a2bf7c494b667da9ce7213d
+   > Blocks: 0            Seconds: 21
+   > contract address:    0x72f7cA840a2A1Ad182583FA8CF2B7Bd4579b44b2
+   > block number:        6759193
+   > block timestamp:     1573543777
+   > account:             0xfB0FD0CC0Db58095a331c23C14305689d6A22119
+   > balance:             3.949174421
+   > gas used:            223305
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0044661 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0044661 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'CMC'
+   ---------------
+   > transaction hash:    0x1947142173e0734bf4632dea27d83baea46c72bc44c19cf5c186c195fa2b7379
+   > Blocks: 0            Seconds: 45
+   > contract address:    0x095f3A9fA687155fea20da6f93ed8DEea6a0c53A
+   > block number:        6759196
+   > block timestamp:     1573543874
+   > account:             0xfB0FD0CC0Db58095a331c23C14305689d6A22119
+   > balance:             3.868002941
+   > gas used:            4016211
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.08032422 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.08032422 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.08479032 ETH
